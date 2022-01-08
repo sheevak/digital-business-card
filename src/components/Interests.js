@@ -4,7 +4,7 @@ export default function Interests() {
     return (
         <div className="container" id="interests">
             <h3>Interests</h3>
-            <p>Reading, cooking/baking, rock climbing.</p>
+            <p>Cooking, baking, reading and watching movies.</p>
         </div>
     )
 }
