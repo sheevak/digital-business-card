@@ -10,10 +10,10 @@ export default function Info() {
                 <h1 className="info--name">Sheeva Kavousian</h1>
                 <h4 className="info--role">Full Stack Developer</h4>
                 <a className="info--site" href="">sheevakavousian.com</a>
-                <button>
+                <a href="mailto:sheevakavous@gmail.com" target="_blank"><button>
                     <img src={email}/>
                     Email
-                </button>
+                </button></a>
             </div>
             
         </header>

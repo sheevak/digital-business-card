@@ -8,16 +8,13 @@ body {
     display: flex;
     justify-content: center;
     background-color: #23252C;
-    /* text-align: center; */
 }
 
-.container1 {
+.app--container {
     width: 318px;
     margin: 44px;
     border-radius: 25px;
     background: #1A1B21;
-
-    
 }
 
 .container {
@@ -59,6 +56,7 @@ button {
     width: 100%;
     height: 34px;
     margin-top: 16px;
+    cursor:pointer;
 }
 
 button > img {
@@ -88,13 +86,11 @@ p {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-    background: #161619;
-    border-radius: 0 0 25px 25px;
+    margin-top: 24px;
     width: 100%;
     height: 64px;
-
-    margin-top: 24px;
+    background: #161619;
+    border-radius: 0 0 25px 25px;
 }
 
 
