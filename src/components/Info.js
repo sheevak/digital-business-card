@@ -1,6 +1,6 @@
 import React from "react"
 import photo from "../images/Sheeva.jpg"
-import email from "../images/email.png"
+import email from "../images/Email-icon.png"
 
 export default function Info() {
     return (

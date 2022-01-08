@@ -8,45 +8,48 @@ body {
     display: flex;
     justify-content: center;
     background-color: #23252C;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .container1 {
     width: 318px;
-    border: solid 1px red;
-    border-radius: 5%;
-
+    margin: 44px;
+    border-radius: 25px;
     background: #1A1B21;
 
-    margin: 44px;
-    color: #FFF;
+    
 }
 
 .container {
     padding: 0 35px;
 }
 
+.info {
+    text-align: center;
+}
+
 .info--photo {
     width: 100%;
-    border-radius: 5% 5% 0 0;
+    border-radius: 25px 25px 0 0;
 }
 
 .info--name {
     font-size: 25px;
     margin-top: 20px;
+    color: #FFF;
 }
 
 .info--role {
     color: #F3BF99;
     font-weight: normal;
-    font-size: 12.8px;
+    font-size: 13px;
     margin-top: 6px;
 }
 
 .info--site {
     color: #F5F5F5;
     margin-top: 9px;
-    font-size: 10.24px;
+    font-size: 12px;
 }
 
 button {
@@ -61,6 +64,40 @@ button {
 button > img {
     margin-right: 10px;
 }
+
+h3 {
+    color: #F5F5F5;
+    font-size: 16px;
+}
+
+p {
+    color: #DCDCDC;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+#about {
+    margin-top: 32px;
+}
+
+#interests {
+    margin-top: 27px;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background: #161619;
+    border-radius: 0 0 25px 25px;
+    width: 100%;
+    height: 64px;
+
+    margin-top: 24px;
+}
+
+
 
 
 
